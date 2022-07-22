@@ -1,4 +1,4 @@
-import { BigInt } from "@graphprotocol/graph-ts"
+import { BigInt, store, log, ethereum } from "@graphprotocol/graph-ts"
 import {
   Trading,
   ClosePosition,
